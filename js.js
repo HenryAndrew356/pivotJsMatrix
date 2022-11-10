@@ -14,14 +14,11 @@ ctx.fillRect(0,0,w,h);
 const cols=Math.floor(w/20)+1;
 const posY=Array(cols).fill(0);
 
-
 function matrix(){
     ctx.fillStyle='#0001';
     ctx.fillRect(0,0,w,h);
-
     ctx.fillStyle='#0f0';
     ctx.font='15pt monospace';
-
     posY.forEach((y,ind)=>{
         const text=
         String.fromCharCode(
